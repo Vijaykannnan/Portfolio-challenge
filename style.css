@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.card-two .card {
+  padding: 15px;
+}
+.card-two img {
+  width: 90px;
+  height: 90px;
+}
+.container {
+  width: 100%;
+}
+.hm-img img {
+  margin: 20px;
+}
+.right-side .skill-outer {
+  width: 100%;
+  height: 15px;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 10px;
+}
+.right-side .skill-inner {
+  background-color: rgb(26, 73, 226);
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+}
+.right-side .js-inner {
+  width: 85%;
+}
+.right-side .css-inner {
+  width: 95%;
+}
+.right-side .vue-inner {
+  width: 57%;
+}
+.right-side .redux-inner {
+  width: 90%;
+}
+.right-side .rn-inner {
+  width: 94%;
+}
+.right-side {
+  margin-bottom: 50%;
+}
+.right-side .figma-inner {
+  width: 54%;
+}
+.right-side .ps-inner {
+  width: 74%;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+  .right-side {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+  }
+  .left-side {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media (max-width: 760px) {
+  .project-card .one,
+  .project-card .two,
+  .project-card .three {
+    width: 94%;
+    margin-left: 11px;
+  }
+  .card-two img {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 750px) {
+  .project-card .one,
+  .project-card .two,
+  .project-card .three {
+    width: 96%;
+    margin-left: 11px;
+  }
+}
+@media (min-width: 380px) and (max-width: 760px) {
+  .project-card img {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1440px) {
+  .project-card img {
+    position: relative;
+    top: 50px;
+  }
+}
+.card {
+  margin-bottom: 15%;
+}
+.card .card-heading {
+  margin: 10px;
+}
+.project-card img {
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.project-card .one {
+  background-color: rgb(211, 150, 110);
+}
+.project-card .two {
+  background-color: rgb(41, 102, 172);
+}
+.project-card .three {
+  background-color: rgb(189, 138, 236);
+}
+.card,
+.skill {
+  box-shadow: 0px 0px 20px 0px rgba(128, 128, 128, 0.5);
+}
+.skill {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+}
+footer p {
+  text-align: center;
+  clear: both;
+}
